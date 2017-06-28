@@ -2,6 +2,40 @@
 
 /*HEADER / BANNER*/
 
+header {
+    color: #fff;
+}
+
+header h1 {
+    color: #EE4266;
+    font-size: 65px;
+}
+
+header h3 {
+    font-size: 45px;
+}
+
+@media screen and (max-width: 550px) {
+    header h1 {font-size: 36px;}
+    header h3 {font-size: 24px;}
+}
+
+.cover-container-inner {
+    margin-top: 350px;
+}
+
+@media screen and (min-width: 2000px) {
+    .cover-container-inner {margin-top: 800px;}
+}
+
+@media screen and (max-width: 650px) {
+    .cover-container-inner {margin-top: 200px;}
+}
+
+@media screen and (max-width: 450px) {
+    .cover-container-inner {margin-top: 150px};
+}
+
 
 
 /*ABOUT*/
