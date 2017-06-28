@@ -1,6 +1,27 @@
+/*NAVIGATION*/
+
+/*HEADER / BANNER*/
+
 .cover {
     width: 100%;
     height: 100vh;
     min-height: 500px;
     background: #83E8BA;
+}
+
+/*ABOUT*/
+
+/*SKILLS*/
+
+#skills {
+    background: #02020A;
+}
+
+
+/*PROJECTS*/
+
+/*CONTACT*/
+
+#contact {
+    background: #02020A;
 }
