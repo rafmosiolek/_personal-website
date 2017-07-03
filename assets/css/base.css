@@ -2,6 +2,7 @@ body {
 	position: relative;
 	line-height: 1.7;
 	color: #02020A;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,16 +21,6 @@ a:hover, a:active, a:focus {
 	color: #2bf4a1;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-	color: #2bf4a1;
-	padding-bottom: 8px;
-	border-bottom: 1px solid #2bf4a1;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:active {
-	color: #2bf4a1;
-}
-
 #site-wrapper {
 	padding-top: 50px;
 }
@@ -37,6 +28,7 @@ a:hover, a:active, a:focus {
 section {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	outline: none;
 }
 
 section:last-of-type {

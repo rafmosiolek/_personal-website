@@ -1,7 +1,16 @@
 /*NAVIGATION*/
 
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
 .navbar {
-	background: #02020A;    
+	background: #02020A;
+
 }
 
 /*HEADER / BANNER*/
