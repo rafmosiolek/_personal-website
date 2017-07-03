@@ -23,8 +23,8 @@
 	transition: .1s linear;
 }
 
-.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:active {
-	
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background: #161616;
 }
 
 /*HEADER / BANNER*/
@@ -101,6 +101,10 @@ header h3 {
 	top: -5px;
 }
 
+#skills h3 {
+	text-align: right;
+}
+
 #skills p {
 	font-size: 12px;
 	text-align: justify;
@@ -111,6 +115,37 @@ header h3 {
 
 /*CONTACT*/
 
-.mail {
-	color: #83E8BA;
+.footer-heading {
+	padding-bottom: 60px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+#contact h4 {
+	font-weight: 600;
+}
+
+.mail {
+	color: #2bf4a1;
+}
+
+.social-media {
+	text-align: right;
+}
+.social-media a {
+	padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+	#contact {
+		text-align: center;
+	}
+
+	.social-media {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.social-media a {
+		padding: 10px;
+	}
+}
+

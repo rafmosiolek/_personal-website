@@ -9,8 +9,8 @@
 }
 
 .navbar {
-	background: #02020A;
-
+	background: #161616;
+	border: none;
 }
 
 /*HEADER / BANNER*/
@@ -38,7 +38,7 @@
 /*SKILLS*/
 
 #skills {
-	background: #02020A;
+	background: #161616;
 }
 
 #skills h2 {
@@ -58,5 +58,5 @@
 /*CONTACT*/
 
 #contact {
-	background: #02020A;
+	background: #161616;
 }
