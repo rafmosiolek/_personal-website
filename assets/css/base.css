@@ -1,31 +1,47 @@
 body {
-    position: relative;
-    line-height: 1.7;
-    color: #02020A;
+	position: relative;
+	line-height: 1.7;
+	color: #02020A;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", sans-serif;
+}
+
+p {
+	font-family: "Source Code Pro", monospace;
 }
 
 a {
-    color: #fff;
+	color: #fff;
+}
+
+a:hover {
+	color: #2bf4a1;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	color: #2bf4a1;
 }
 
 #site-wrapper {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 
 section {
-    margin-top: 100px;
-    margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 section:last-of-type {
-    margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .row {
-    margin-top: 30px;
-    margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #skills, #contact {
-    color: #FBFFFE;
+	color: #FBFFFE;
 }

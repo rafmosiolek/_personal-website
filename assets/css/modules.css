@@ -3,33 +3,79 @@
 /*HEADER / BANNER*/
 
 header {
-    color: #fff;
+	color: #fff;
 }
 
 header h1 {
-    color: #EE4266;
-    font-size: 65px;
+	color: #EE4266;
+	font-size: 65px;
 }
 
 header h3 {
-    font-size: 45px;
-    padding-bottom: 20px;
+	font-size: 45px;
+	padding-bottom: 20px;
 }
 
 @media screen and (max-width: 550px) {
-    header h1 {font-size: 36px;}
-    header h3 {font-size: 24px;}
+	header h1 {font-size: 36px;}
+	header h3 {font-size: 24px;}
 }
 
 
 /*ABOUT*/
 
+.about-para {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.tricks {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+}
+
+.tricks .fa {
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+
+
+}
+.tricks h4 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.tricks p {
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+}
+
 /*SKILLS*/
+
+.skills-list {
+
+}
+
+.skills-list li {
+	list-style: none;
+}
+
+.skills-list li::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	margin-right: 10px;
+	border-top: 1px solid #2bf4a1;
+	position: relative;
+	top: -5px;
+}
 
 /*PROJECTS*/
 
 /*CONTACT*/
 
 .mail {
-    color: #83E8BA;
+	color: #83E8BA;
 }
