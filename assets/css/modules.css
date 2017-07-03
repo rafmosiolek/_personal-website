@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-	color: #EE4266;
+	color: /*#EE4266;*/ #FE4A49;
 	font-size: 65px;
 }
 
@@ -65,6 +65,7 @@ header h3 {
 .tricks .fa {
 	padding-top: 15px;
 	padding-bottom: 15px;
+	color: #333;
 
 
 
@@ -133,6 +134,11 @@ header h3 {
 }
 .social-media a {
 	padding: 20px;
+}
+
+.social-media a:hover {
+	color: #2bf4a1;
+	transition: .7s linear;
 }
 
 @media screen and (max-width: 767px) {
