@@ -25,10 +25,10 @@
 	background: 
 	/* top, transparent bright green */
 	linear-gradient(
-		rgba(43,244,161, 0.83),
-		rgba(43,244,161, 0.83)
+		rgba(43,244,161, 0.9),
+		rgba(43,244,161, 0.9)
 	),
-	url(../images/cover.jpg) bottom center no-repeat;
+	url(../images/overlay-pattern.png) repeat;
 
 }
 
