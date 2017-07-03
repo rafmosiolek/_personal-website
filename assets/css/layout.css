@@ -19,8 +19,17 @@
 	width: 100%;
 	height: 100vh;
 	min-height: 500px;
-	background: #2bf4a1;
+	/*background: #2bf4a1;*/
 	position: relative;
+
+	background: 
+	/* top, transparent bright green */
+	linear-gradient(
+		rgba(43,244,161, 0.83),
+		rgba(43,244,161, 0.83)
+	),
+	url(../images/cover.jpg) bottom center no-repeat;
+
 }
 
 
