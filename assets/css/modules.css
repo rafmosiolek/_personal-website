@@ -130,11 +130,12 @@ header h3 {
 }
 
 .bottom-footer {
-	padding-bottom: 100px;
+	padding-bottom: 90px;
 }
 
 .social-media {
 	text-align: right;
+	margin-top: 10px;
 }
 .social-media a {
 	padding: 20px;
