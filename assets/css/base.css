@@ -1,5 +1,7 @@
 body {
     position: relative;
+    line-height: 1.7;
+    color: #02020A;
 }
 
 a {
@@ -22,4 +24,8 @@ section:last-of-type {
 .row {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+#skills, #contact {
+    color: #FBFFFE;
 }

@@ -21,23 +21,6 @@ header h3 {
     header h3 {font-size: 24px;}
 }
 
-.cover-container-inner {
-    margin-top: 350px;
-}
-
-@media screen and (min-width: 2000px) {
-    .cover-container-inner {margin-top: 800px;}
-}
-
-@media screen and (max-width: 650px) {
-    .cover-container-inner {margin-top: 200px;}
-}
-
-@media screen and (max-width: 450px) {
-    .cover-container-inner {margin-top: 150px};
-}
-
-
 
 /*ABOUT*/
 
