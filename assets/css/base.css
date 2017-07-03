@@ -5,22 +5,28 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", Helvetica, sans-serif;
 }
 
 p {
-	font-family: "Source Code Pro", monospace;
+	font-family: "Open Sans", Arial, serif;
 }
 
 a {
 	color: #fff;
 }
 
-a:hover {
+a:hover, a:active, a:focus {
 	color: #2bf4a1;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+	color: #2bf4a1;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #2bf4a1;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:active {
 	color: #2bf4a1;
 }
 

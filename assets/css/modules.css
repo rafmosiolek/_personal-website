@@ -55,7 +55,9 @@ header h3 {
 /*SKILLS*/
 
 .skills-list {
-
+	height: 70px;
+	margin-top: 14px;
+	margin-bottom: 14px;
 }
 
 .skills-list li {
@@ -70,6 +72,12 @@ header h3 {
 	border-top: 1px solid #2bf4a1;
 	position: relative;
 	top: -5px;
+}
+
+#skills p {
+	font-size: 12px;
+	text-align: justify;
+
 }
 
 /*PROJECTS*/
