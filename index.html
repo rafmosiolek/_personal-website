@@ -32,6 +32,7 @@
 	<link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<!-- Plugins -->
 	<link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendor/animate.css">
 	<!-- Application CSS -->
 	<link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/layout.css">
@@ -94,11 +95,11 @@
 		<!-- About section -->
 		<section id="about" class="container">
 			<div class="row heading text-center">
-				<h2>About me</h2>
+				<h2 class="wow fadeIn">About me</h2>
 			</div>
 			<div class="row about">
 				<div class="col-md-6 col-md-offset-3">
-					<p class="about-para">Hi, I am Raf. I am a self-taught developer with a restless need to pick up new tech skills outside my comfort zone, passionate about agile methodologies, modular code and user-centred approach.</p>
+					<p class="about-para wow">Hi, I am Raf. I am a self-taught developer with a restless need to pick up new tech skills outside my comfort zone, passionate about agile methodologies, modular code and user-centred approach.</p>
 					<p>For the past year, I have been consistently honing my Front End skills with a tailored curriculum based on online courses, resources and bootcamps. As a huge technology enthusiast, I keep myself up-to-date with design and tech trends by regularly attending London tech meet-ups, workshops and conferences.</p>
 					<p>Currently, knee deep in JavaScript and its APIs, aiming to become a MEAN Stack Developer in the future. Excited about employing my code craftsmanship skills to develop world-class products.</p>
 				</div>
@@ -240,6 +241,27 @@
 	<script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<!-- Application JavaScript -->
 	<script src="assets/js/script.js"></script>
+	<!-- Link wowJS library -->
+	<script src="assets/js/wow.min.js"></script>
+	<!-- Activate wowJS library -->
+	<script>
+		var wowwow = new WOW(
+			{
+			boxClass: 	'wow',			// animated element css class (default is wow)
+			animateClass: 'animated',	// animation css class (default is animated)
+			offset:       0,			// distance to the element when triggering the animation (default is 0)
+			mobile:       true,			// trigger animations on mobile devices (default is true)
+			live:         true,			// act on asynchronously loaded content (default is true)
+			callback:     function(box) {
+				// the callback is fired every time an animation is started
+				// the argument that is passed in is the DOM node being animated
+			},
+			scrollContainer: null,    // optional scroll container selector, otherwise use window,
+			resetAnimation: true,     // reset animation on end (default is true)
+			}	
+			);
+		wowwow.init();
+	</script>
 	<!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]-->
