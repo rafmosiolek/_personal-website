@@ -44,3 +44,11 @@ section:last-of-type {
 #skills, #contact {
 	color: #FBFFFE;
 }
+
+.headline {
+	text-shadow: 3px 4px 9px rgba(22, 22, 22, 0.7);
+}
+
+.headline-reverse {
+	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
+}

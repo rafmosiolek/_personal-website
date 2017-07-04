@@ -24,7 +24,3 @@ $('a[href*="#"]')
 		}
 	}
 });
-
-
-
-////////////// Initalizing the WOW.js libraries
