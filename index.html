@@ -278,9 +278,12 @@
 		<!-- Projects section -->
 		<section id="projects" class="container-fluid text-center">
 			<div class="container">
+				<div class="row heading text-center">
+					<h2 class="wow fadeInDown headline" data-wow-duration="1s" data-wow-delay="0.1s">Projects</h2>
+				</div>
 				<div class="row projects-content">
 					<div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-						<a class="open-modal" href="#project1" data-toggle="modal"> <!-- first project -->
+						<a href="#project1" data-toggle="modal"> <!-- first project -->
 							<img src="assets/images/project_template_photo.jpg" alt="coffee and code" class="img-responsive center-block">
 						</a>
 					</div>
@@ -311,7 +314,7 @@
 		<!-- Projects' MODALS -->
 
 		<!-- First modal - Bouncing Balls -->
-		<div id="project1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="porject1modal">
+		<div id="project1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="project1modal">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -408,7 +411,7 @@
 			{
 			boxClass: 	'wow',			// animated element css class (default is wow)
 			animateClass: 'animated',	// animation css class (default is animated)
-			offset:       0,			// distance to the element when triggering the animation (default is 0)
+			offset:       75,			// distance to the element when triggering the animation (default is 0)
 			mobile:       true,			// trigger animations on mobile devices (default is true)
 			live:         true,			// act on asynchronously loaded content (default is true)
 			callback:     function(box) {

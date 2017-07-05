@@ -132,6 +132,14 @@ header h3 {
 	background: rgba(43,244,161, 0.8);
 }
 
+#projects img {
+	transition: 0.3s;
+}
+
+#projects img:hover {
+	opacity: 0.7;
+}
+
 /*CONTACT*/
 
 .footer-heading {

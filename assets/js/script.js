@@ -29,12 +29,3 @@ $('a[href*="#"]')
 		}
 	}
 });
-
-// $('a.open-modal').click(function ($e) {
-//     $e.preventDefault();
-// });
-
-// $('a.open-modal').click( function() {
-// 	$("#project1").dialog("open");
-//      return false;
-// });
