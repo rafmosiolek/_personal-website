@@ -123,6 +123,15 @@ header h3 {
 
 /*PROJECTS*/
 
+.overlay {
+	visibility: hidden;
+}
+
+.overlay:hover {
+	visibility: visible;
+	background: rgba(43,244,161, 0.8);
+}
+
 /*CONTACT*/
 
 .footer-heading {
