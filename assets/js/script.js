@@ -5,7 +5,7 @@ $('a[href*="#"]')
 	.not('[href="#"]')
 	.not('[href="#0"]')
 	// Remove links that links to modal (prevent from scrolling page to the top when modal is open)
-	// .not('[href*=#project1')
+	// .not('[href=#project1')
 	// .not('[href=#project2')
 	// .not('[href=#project3')
 	// .not('[href=#project4')
@@ -29,3 +29,12 @@ $('a[href*="#"]')
 		}
 	}
 });
+
+// $('a.open-modal').click(function ($e) {
+//     $e.preventDefault();
+// });
+
+// $('a.open-modal').click( function() {
+// 	$("#project1").dialog("open");
+//      return false;
+// });
