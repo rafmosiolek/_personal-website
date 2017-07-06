@@ -36,11 +36,13 @@ header {
 header h1 {
 	color: /*#EE4266;*/ #FE4A49;
 	font-size: 75px;
+	text-shadow: 3px 4px 9px rgba(22, 22, 22, 0.7);
 }
 
 header h3 {
 	font-size: 60px;
 	padding-bottom: 20px;
+	text-shadow: 3px 4px 9px rgba(22, 22, 22, 0.7);
 
 }
 
@@ -123,6 +125,11 @@ header h3 {
 
 /*PROJECTS*/
 
+#projects h2 {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
 .overlay {
 	visibility: hidden;
 }
@@ -130,6 +137,10 @@ header h3 {
 .overlay:hover {
 	visibility: visible;
 	background: rgba(43,244,161, 0.8);
+}
+
+#projects a {
+	outline: none;
 }
 
 #projects img {
