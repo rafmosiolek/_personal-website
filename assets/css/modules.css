@@ -151,6 +151,7 @@ header h3 {
 	opacity: 0.7;
 }
 
+
 /*CONTACT*/
 
 .footer-heading {
@@ -164,6 +165,14 @@ header h3 {
 
 .mail {
 	color: #2bf4a1;
+	text-decoration: none;
+}
+
+.mail:hover {
+	text-decoration: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #2bf4a1;
+	transition: .1s ease-in-out;
 }
 
 .bottom-footer {

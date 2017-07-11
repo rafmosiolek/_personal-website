@@ -7,8 +7,8 @@ body {
 }
 
 body.modal-open {
-    overflow: hidden;
-    position:fixed;
+    overflow: visible;
+/*    position:fixed;*/
     width: 100%;
 }
 
